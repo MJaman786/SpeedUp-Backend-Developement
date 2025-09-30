@@ -9,6 +9,7 @@ This is a simple project demonstrating how to handle form submissions using the 
 
 ## This is Folder Structure
 
+``` bash
 Day 9 Form Handeling using POST...
 │
 ├── node_modules/             # Installed dependencies
@@ -31,3 +32,4 @@ Day 9 Form Handeling using POST...
 ├── package.json              # Project configuration
 ├── package-lock.json         # Lock file for dependencies
 └── readme.md                 # Project documentation
+```
