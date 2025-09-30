@@ -47,7 +47,7 @@ app.use(express.static('public'));
 Here are the most common EJS tags you’ll use:
 
 * 1. <%= %> → Output value
-``` html
+``` bash
 This displays a variable directly inside HTML.
 
 <p>Hello, <%= name %>!</p>
@@ -56,14 +56,14 @@ If name = "Aman", the page will show:
 ```
 
 * 2. <%- %> → Output raw HTML
-``` html
+``` bash
 This is used when you want to insert HTML directly (not escaped).
 
 <%- "<h2>Bold Text</h2>" %>
 👉 Will actually render <h2>Bold Text</h2> on the page.
 ```
 * 3. <% %> → Run JavaScript code (no output)
-``` html
+``` bash
 This is useful for loops, conditions, or calculations.
 
 <% for(let i = 1; i <= 3; i++) { %>
@@ -76,7 +76,7 @@ Number: 3
 ```
 
 * 4. <%- include("file") %> → Include partials
-``` html
+``` bash
 You can reuse code (like headers, footers, or CDNs).
 Example:
 <%- include("partials/cdn") %>
